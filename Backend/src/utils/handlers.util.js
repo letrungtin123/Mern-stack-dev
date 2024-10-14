@@ -14,6 +14,7 @@ export const wrapRequestHandler = (func) => {
 	};
 };
 
+
 export const checkTypeToken = (type) => {
 	switch (type) {
 		case TypeToken.RESET:
